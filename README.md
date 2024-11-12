@@ -35,6 +35,14 @@ To begin, clone the repository to your local machine:
              python manage.py runserver
              Visit http://127.0.0.1:8000/ in your browser to access the project.
 
+<------------Functionality Working------->
+(On home page list of Registered user will be shown in a table.)
+
+1. To perform Create operations in navbar click on Register User.
+2. To perform Read operation click on Name of the user.
+3. To perform Update operation click on Name of the registered user ( update is mentioned).
+4. To perform Delete operation click on Name of the registered user (delete option is mentioned).
+
 ---------Features-------
 Create, Read, Update, Delete (CRUD) operations on registration data.
 PostgreSQL database integration for reliable data storage.
