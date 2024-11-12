@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div id="box" style=" padding-top: 40px; align-items: center;">
+    <h3 style="padding-left:40;">Registration Form</h3>
+    <form method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type="submit">Save</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+        <h3 style="margin-top: 30px; padding-left: 10px;">{{object.Name}}</h3>
+        <a href="{% url 'update' object.id %}">Update</a> <a href="{% url 'delete' object.id %}">delete</a>
+        <ul><b>Email: </b>{{object.Email}}</ul>
+        <ul><b>Date of Birth: </b>{{object.DOB}}</ul>
+        <ul><b>Phone number: </b>{{object.Phone_no}}</ul>
+{% endblock %}
